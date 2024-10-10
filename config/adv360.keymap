@@ -80,11 +80,11 @@
 
         layer_Layer__4 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans        &trans          &trans          &trans           &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &tog 0                                                  &trans        &trans          &trans          &trans           &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans   &kp X            &trans  &trans  &trans                  &trans  &trans  &trans  &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                        &trans          &trans          &trans           &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                        &trans          &trans           &trans  &trans  &trans
+ &trans            &trans          &trans       &trans  &trans  &trans            &tog 1                                                  &trans  &trans          &trans          &trans           &trans  &trans  &trans
+ &trans            &trans          &trans       &trans  &trans  &trans            &tog 0                                                  &trans  &trans          &trans    &kp UP_ARROW           &trans  &trans  &trans
+ &trans  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &macro_copy  &trans   &kp X            &trans  &trans  &trans                  &trans  &trans  &trans   &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+ &trans            &trans          &trans       &trans  &trans  &trans                            &trans                  &trans                  &trans          &trans          &trans           &trans  &trans  &trans
+ &trans            &trans          &trans       &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                  &trans          &trans           &trans  &trans  &trans
             >;
         };
 
